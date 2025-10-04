@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Building2, Brain, Calendar, Shield, Zap, CheckCircle, ArrowRight, Sparkles } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -11,7 +12,13 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg" />
+              <Image
+                src="/images/eoc-logo.png"
+                alt="Edgeofcali Media Network LLC"
+                width={36}
+                height={36}
+                className="rounded-lg"
+              />
               <span className="text-xl font-semibold">EOC AI</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
@@ -347,7 +354,13 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg" />
+              <Image
+                src="/images/eoc-logo.png"
+                alt="Edgeofcali Media Network LLC"
+                width={36}
+                height={36}
+                className="rounded-lg"
+              />
               <div>
                 <div className="text-lg font-semibold">EOC AI</div>
                 <div className="text-sm text-muted-foreground">Edgeofcali Media Network LLC</div>
