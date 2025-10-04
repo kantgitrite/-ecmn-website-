@@ -4,75 +4,75 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color tokens to match construction industry design brief */
-  --background: #ffffff;
-  --foreground: #475569;
-  --card: #ecfeff;
-  --card-foreground: #164e63;
-  --popover: #ffffff;
-  --popover-foreground: #475569;
-  --primary: #164e63;
-  --primary-foreground: #ffffff;
-  --secondary: #6366f1;
+  /* Updated to pure black background with refined color palette inspired by design references */
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #0a0a0a;
+  --card-foreground: #ffffff;
+  --popover: #0a0a0a;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --secondary: #3b82f6;
   --secondary-foreground: #ffffff;
-  --muted: #f8fafc;
-  --muted-foreground: #475569;
-  --accent: #6366f1;
+  --muted: #171717;
+  --muted-foreground: #a1a1aa;
+  --accent: #3b82f6;
   --accent-foreground: #ffffff;
-  --destructive: #be123c;
+  --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #e5e7eb;
-  --input: #ffffff;
-  --ring: #6366f1;
-  --chart-1: #d1fae5;
-  --chart-2: #fbbf24;
-  --chart-3: #f87171;
-  --chart-4: #60a5fa;
-  --chart-5: #a5b4fc;
-  --radius: 0.375rem;
-  --sidebar: #f9fafb;
-  --sidebar-foreground: #1f2937;
-  --sidebar-primary: #f1f5f9;
-  --sidebar-primary-foreground: #1f2937;
-  --sidebar-accent: #fbbf24;
+  --border: #27272a;
+  --input: #18181b;
+  --ring: #3b82f6;
+  --chart-1: #3b82f6;
+  --chart-2: #6366f1;
+  --chart-3: #8b5cf6;
+  --chart-4: #14b8a6;
+  --chart-5: #f59e0b;
+  --radius: 0.75rem;
+  --sidebar: #0a0a0a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #171717;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #3b82f6;
   --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #e5e7eb;
-  --sidebar-ring: #6366f1;
+  --sidebar-border: #27272a;
+  --sidebar-ring: #3b82f6;
 }
 
 .dark {
-  --background: #0f172a;
-  --foreground: #e2e8f0;
-  --card: #1e293b;
-  --card-foreground: #e2e8f0;
-  --popover: #1e293b;
-  --popover-foreground: #e2e8f0;
-  --primary: #0ea5e9;
-  --primary-foreground: #ffffff;
-  --secondary: #6366f1;
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #0a0a0a;
+  --card-foreground: #ffffff;
+  --popover: #0a0a0a;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --secondary: #3b82f6;
   --secondary-foreground: #ffffff;
-  --muted: #334155;
-  --muted-foreground: #94a3b8;
-  --accent: #6366f1;
+  --muted: #171717;
+  --muted-foreground: #a1a1aa;
+  --accent: #3b82f6;
   --accent-foreground: #ffffff;
-  --destructive: #dc2626;
+  --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #334155;
-  --input: #1e293b;
-  --ring: #6366f1;
-  --chart-1: #065f46;
-  --chart-2: #92400e;
-  --chart-3: #991b1b;
-  --chart-4: #1e40af;
-  --chart-5: #5b21b6;
-  --sidebar: #1e293b;
-  --sidebar-foreground: #e2e8f0;
-  --sidebar-primary: #0ea5e9;
+  --border: #27272a;
+  --input: #18181b;
+  --ring: #3b82f6;
+  --chart-1: #3b82f6;
+  --chart-2: #6366f1;
+  --chart-3: #8b5cf6;
+  --chart-4: #14b8a6;
+  --chart-5: #f59e0b;
+  --sidebar: #0a0a0a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #171717;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #fbbf24;
-  --sidebar-accent-foreground: #000000;
-  --sidebar-border: #334155;
-  --sidebar-ring: #6366f1;
+  --sidebar-accent: #3b82f6;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #27272a;
+  --sidebar-ring: #3b82f6;
 }
 
 @theme inline {
@@ -112,6 +112,8 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --font-sans: var(--font-geist);
+  --font-serif: var(--font-manrope);
 }
 
 @layer base {
